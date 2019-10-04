@@ -62,8 +62,6 @@ Assessment for this course is through practical and written examination
   - John Whitney approach
   - <https://www.youtube.com/watch?v=5eMSPtm6u5Y>
 
---
-
 ## How we will learn
 
 - Explore application ideas slowly
@@ -75,8 +73,6 @@ Assessment for this course is through practical and written examination
 - Explore through creative application / sound and image making
   - If think you already know what you’re doing, try it this way instead. It’s good fun :-)
 
----
-
 ## Getting started using Maximilian in JavaScript
 
 - www.mimicproject.com _REQUIRES CHROME_
@@ -86,7 +82,6 @@ Assessment for this course is through practical and written examination
   - https://www.w3schools.com/js/default.asp
   And for ES6, which we will also be using:
   - https://www.w3schools.com/js/js_es6.asp
-
 
 ## C++ on Windows
 
