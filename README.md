@@ -12,16 +12,14 @@ The course is divided in to 2-week blocks that focus on specific areas, explorin
 
 ## Schedule:
 
-- Sound and Signal processing - Week 1 and 2
-
+Sound and Signal processing - Week 1 and 2
  - Looking at waveforms and making basic synths
  - Using filters and waveforms for more altering sounds
  - Building a drum machine
  - Creating soundscapes
  - Programming knowledge - basic structure, variables, arrays and conditionals
 
-
-- 2D graphics - Week 3 and 4
+2D graphics - Week 3 and 4
 
  - Image representations
  - Image filters / convolution filters
@@ -29,8 +27,7 @@ The course is divided in to 2-week blocks that focus on specific areas, explorin
 Using other algorithms for generating patterns (fractals, packing systems etc.)
  - Programming knowledge - intermediate structure,  more arrays, more conditionals, for loops, polar coordinates, 2D vectors
 
-
-- 3D graphics - Week 5 and 6
+3D graphics - Week 5 and 6
 
  - Creating a 3D engine from scratch
  - Creating 3D geometry from scratch
@@ -39,7 +36,7 @@ Using other algorithms for generating patterns (fractals, packing systems etc.)
  - Programming knowledge - 3D vectors, creating perspective, using matrices for transformations
 
 
-- Shaders - Week 7 and 8
+Shaders - Week 7 and 8
 
  - Fragments shaders
  - Creating basic shapes, lines and noise
@@ -49,10 +46,11 @@ Using other algorithms for generating patterns (fractals, packing systems etc.)
  - Programming knowledge - GLSL concepts, variables and structure, contemporary graphics pipeline
 
 
-- Basic Machine Learning and information retrieval for Real-time interaction
+Basic Machine Learning and information retrieval for Real-time interaction
  - Sound and Image Features
  - Classification
  - Regression
+
 
 Assessment for this course is through practical and written examination
 
