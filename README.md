@@ -57,8 +57,8 @@ Assessment for this course is through practical and written examination
 ## How will we learn
 
 - Explore periodic phenomena and creative computing concepts through interactive programming
-- Build simple applications that just make sounds
-  - Then extend this to moving images
+- Build simple applications that just make sounds,
+- Then extend this to moving images
   - John Whitney approach
   - <https://www.youtube.com/watch?v=5eMSPtm6u5Y>
 
@@ -82,6 +82,10 @@ Assessment for this course is through practical and written examination
 - www.mimicproject.com _REQUIRES CHROME_
   - Start here
   - https://mimicproject.com/guides/maximJS
+  For hot takes on JavaScript, go here and drink it in :-)
+  - https://www.w3schools.com/js/default.asp
+  And for ES6, which we will also be using:
+  - https://www.w3schools.com/js/js_es6.asp
 
 
 ## C++ on Windows
