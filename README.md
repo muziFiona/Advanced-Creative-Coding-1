@@ -77,11 +77,11 @@ Assessment for this course is through practical and written examination
 
 ---
 
-## Getting started using JavaScript
+## Getting started using Maximilian in JavaScript
 
 - www.mimicproject.com _REQUIRES CHROME_
-  - JavaScript track starts here
-   - https://mimicproject.com/code/0a5dd670-06e0-8414-7967-ee732b7eee0f
+  - Start here
+  - https://mimicproject.com/guides/maximJS
 
 
 ## C++ on Windows
