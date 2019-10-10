@@ -118,6 +118,7 @@ Assessment for this course is through practical and written examination
 
 --
 ---
+##QUICK START:
 
 # Oscillation
 
@@ -175,11 +176,6 @@ Waves also have an amplitude.
   - Beating
   - Amplitude modulation
 
-## Recording your output
-
-- Maximilian can record your output to a .wav file automatically
-- You can listen back to the audio and use it in your projects
-
 # Session #1 Practical
 
 Work through the first few examples.
@@ -189,3 +185,8 @@ Using at least 4 oscillators, create a continuous, drone-based sound texture or 
 Use two of the oscillators to control parameters of the other two oscillators. Try to use a filter.
 
 Make the sound texture vary continuously over a period of 1 minute through the use of low-frequency oscillators, so that the sound texture develops over the entire period.
+
+# Session #2
+
+Creative JavaScript for beginners
+
