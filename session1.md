@@ -1,4 +1,4 @@
-##QUICK START:
+# Session 1: Sound Part One
 
 # Oscillation
 
