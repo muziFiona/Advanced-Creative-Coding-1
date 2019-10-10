@@ -2,7 +2,13 @@
 
 This is a crash course in Creative JavaScript that you can go through in a single day. It mainly focuses on the JavaScript canvas, and covers the basics of drawing simple shapes and lines, setting up animation processes, using sprites, going fullscreen, simple blending, translation and rotation, mouse interaction and simple simulations, whilst also getting you more familar with the basics of variables, conditionals, loops and functions. 
 
-The material is all up on mimicproject.com. Here are the links in more or less the order you should tackle them. I'd recommend doing this in groups, like a workshop style activity, but you can also go through them on your own if you like. 
+The material is all up on mimicproject.com. Here are the links in more or less the order you should tackle them. I'd recommend doing this in groups, like a workshop style activity, but you can also go through them on your own if you like.
+
+This cheatsheet is pretty handy too :
+
+https://github.com/micknoise/Advanced-Creative-Coding-1/blob/master/cheat-sheets/HTML5_Canvas_Cheat_Sheet.pdf
+
+#Tutorials
 
 ## Creating a JavaScript Canvas
 https://mimicproject.com/code/9ef19ff5-d582-4b95-50eb-ea21a63dfb64
