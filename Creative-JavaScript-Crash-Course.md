@@ -4,7 +4,7 @@ This is a crash course in Creative JavaScript that you can go through in a singl
 
 The material is all up on mimicproject.com. Here are the links in more or less the order you should tackle them. I'd recommend doing this in groups, like a workshop style activity, but you can also go through them on your own if you like. 
 
-## Creative a JavaScript Canvas
+## Creating a JavaScript Canvas
 https://mimicproject.com/code/9ef19ff5-d582-4b95-50eb-ea21a63dfb64
 ## Drawing a line
 https://mimicproject.com/code/b9b12af0-8811-44a3-5c5f-45221bfb7605
