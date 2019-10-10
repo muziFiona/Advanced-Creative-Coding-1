@@ -8,7 +8,7 @@ This cheatsheet is pretty handy too :
 
 https://github.com/micknoise/Advanced-Creative-Coding-1/blob/master/cheat-sheets/HTML5_Canvas_Cheat_Sheet.pdf
 
-#Tutorials
+# Tutorials
 
 ## Creating a JavaScript Canvas
 https://mimicproject.com/code/9ef19ff5-d582-4b95-50eb-ea21a63dfb64
