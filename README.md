@@ -14,7 +14,7 @@ The course is divided in to 2-week blocks that focus on specific areas, explorin
 
 Sound and Signal processing - Week 1 and 2
  - Looking at waveforms and making basic synths
- - Using filters and waveforms for more altering sounds
+ - Using filters and waveforms for altering sounds
  - Building a drum machine
  - Creating soundscapes
  - Programming knowledge - basic structure, variables, arrays and conditionals
@@ -54,10 +54,10 @@ Basic Machine Learning and information retrieval for Real-time interaction
 
 Assessment for this course is through practical and written examination
 
-## How will we learn
+## How we will learn
 
 - Explore periodic phenomena and creative computing concepts through interactive programming
-- Build simple applications that just make sounds,
+- Build simple applications that just make sounds
 - Then extend this to moving images
   - John Whitney approach
   - <https://www.youtube.com/watch?v=5eMSPtm6u5Y>
@@ -90,6 +90,7 @@ Assessment for this course is through practical and written examination
  - https://github.com/micknoise/Advanced-Creative-Coding-1/blob/master/Creative-JavaScript-Crash-Course.md
  - I'd recommend you do this before diving in to something like p5.
 
+# For those of you intent on using C++ !
 
 ## C++ on Windows
 
@@ -97,24 +98,11 @@ Assessment for this course is through practical and written examination
   - Windows 10: free with any recent windows license
   - Community Edition - free. Installed on PCs
 
---
-
 ## C++ on MacOS
 
 - El Capitan, High Sierra,... *NOT* Catalina
   - Free
   - Xcode - also free
-
----
-
-## Download Maximilian
-
-- Designed to make it easy to learn how to do sound and music in C++
-- Good for beginners
-- Powerful enough to be used in commercial applications
-- Free
-
---
 
 ## C++ Track - Download Maximilian
 
@@ -123,5 +111,3 @@ Assessment for this course is through practical and written examination
 - use git to clone the repository (you will need to setup your git)
 - git@github.com:micknoise/Maximilian.git
 - or just download it from the website
-
-
