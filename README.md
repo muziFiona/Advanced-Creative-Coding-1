@@ -85,7 +85,8 @@ Assessment for this course is through practical and written examination
 
 - For JavaScript and programming beginners
  - if you feel like you need an overall JavaScript refresher, check out the below crash course I've put together
- - 
+ - https://github.com/micknoise/Advanced-Creative-Coding-1/blob/master/Creative-JavaScript-Crash-Course.md
+
 
 ## C++ on Windows
 
