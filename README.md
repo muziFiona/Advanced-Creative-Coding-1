@@ -8,7 +8,7 @@ Professor Mick Grierson
 
 Welcome to Advanced Creative Coding 1. In this course we look at a range of methods for working with media through programming in ways that are specifically useful in Creative Computing contexts. We also refine and develop our understanding of core programming concepts and computatonal techniques used by artists and those in the creative industries generally.
 
-The course is divided in to 2-week blocks that focus on specific areas, exploring them in ways that relate to certain types of coding expertise and technical approaches. The course is 'Advanced' in terms of the concepts we will engage with, not necessarily the programming approaches that we will use. However, a basic background in programming is assumed. Those looking to refresh their memory of basic concepts can always use the JavaScript Crash Course I've put together here:
+The course is divided in to 2-week blocks that focus on specific areas, exploring them in ways that relate to certain types of coding expertise and technical approaches. The course is 'Advanced' in terms of the concepts we will engage with, not necessarily the programming approaches that we will use. However, a basic background in programming is assumed. Those looking to refresh their memory of basic concepts can always take the Creative JavaScript crash course I've put together here:
 
  - https://github.com/micknoise/Advanced-Creative-Coding-1/blob/master/Creative-JavaScript-Crash-Course.md
 
