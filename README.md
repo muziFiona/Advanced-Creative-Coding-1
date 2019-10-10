@@ -73,11 +73,13 @@ Assessment for this course is through practical and written examination
 - Explore through creative application / sound and image making
   - If think you already know what you’re doing, try it this way instead. It’s good fun :-)
 
-## Getting started using Maximilian in JavaScript
+## Getting started using JavaScript
 
 - www.mimicproject.com _REQUIRES CHROME_
-  - Start here
+  - Start here for week 1 (using maximilian)
   - https://mimicproject.com/guides/maximJS
+  - You should also look at the MIMIC guide:
+  - https://mimicproject.com/getting-started/beginner
   - For hot takes on JavaScript, go here and drink it in :-)
   - https://www.w3schools.com/js/default.asp
   - And for ES6, which we will also be using:
@@ -86,6 +88,7 @@ Assessment for this course is through practical and written examination
 - For JavaScript and programming beginners
  - if you feel like you need an overall JavaScript refresher, check out the below crash course I've put together
  - https://github.com/micknoise/Advanced-Creative-Coding-1/blob/master/Creative-JavaScript-Crash-Course.md
+ - I'd recommend you do this before diving in to something like p5.
 
 
 ## C++ on Windows
