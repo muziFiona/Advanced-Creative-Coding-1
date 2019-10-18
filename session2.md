@@ -30,4 +30,5 @@
  - Create a soundscape or rhythmic piece that uses at least four sounds, and continually changes for over 2 minutes. 
 
 # Additional Materials
- - Coming for those that want them...
+ - Here's an advanced example that combines all the things we looked at in the last two weeks, as well as some other stuff
+ - https://mimicproject.com/code/afe3b617-4ad9-97df-6c8c-818b901897eb
