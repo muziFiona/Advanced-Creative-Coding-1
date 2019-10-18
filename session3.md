@@ -34,7 +34,7 @@
  - Here's an example:
  - https://mimicproject.com/code/44f2f678-dfb3-781b-dfa6-860aa56fceb5
  
-## Polar to Cartesian Conversion
+## Polar to Cartesian Conversion (POLTOCAR)
  - In order to draw polar systems, we need to convert from polar to cartesian coordinates
  - We do this as follows:
  - x = (r * cos( θ ))
@@ -50,12 +50,12 @@
  - We can use to scale polar coordinates easily
  - This is because the angle contains the direction of travel 
  
-## Converting back to Cartesian Coordinates Radius
+## Getting the Radius back - CARTOPOL
  - We can use Pythagoras’ theorem to convert cartesian coordinates to a radius
  - This is because the radius (magnitude) is the length of the hypotenuse from the origin to (x,y)
  - This is also incredibly useful for finding out how far away you are from something
  
-## Theta
+## CARTOPOL Theta
  - Getting the angle is more complicated - but very useful, as it represents the direction from the origin in radians
  - tan( θ ) = y / x So
  - θ = tan-1 ( 5 / 12 )
@@ -79,7 +79,7 @@
   - https://mimicproject.com/code/a7e2f833-49c8-d71f-99bd-19a993321e7e
   
 # Exercise 
- - Take a look at this example. They use processing to create interesting shapes - I'll explain more about them later.
+ - Take a look at this example. We use processing to create interesting shapes - I'll explain more about them later.
  - https://mimicproject.com/code/17134a36-adbd-d602-8947-dcfb87cec39b
  - Convert these processing examples so that they work in pure JavaScript
  - We're doing this to make you think about the actual algorithm
