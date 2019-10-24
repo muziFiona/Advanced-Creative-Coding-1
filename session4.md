@@ -31,6 +31,9 @@ position=(x+y*imageData.width)*4;
 imageData.data[position] = c%255;
 imageData.data[position+1] = c%255;
 imageData.data[position+2] = c%255
-imageData.data[position+3] = 255;```
- - 
+imageData.data[position+3] = 255;
+```
+ - The modulo operator is to ensure that the output never goes over 255, which is the maximum colour value
+ - The 'position' line moves through the Image Data 'array', writing colour channels for each position.
+ - It's going to take a while for you to get familiar with this code - BUT YOU NEED TO.
  
