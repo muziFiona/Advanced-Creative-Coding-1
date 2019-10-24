@@ -26,9 +26,11 @@
  
 ## Writing output pixels
  - set red, green, blue, and alpha:
-		```position=(x+y*imageData.width)*4;```
-		```imageData.data[position] = c%255;```
-		```imageData.data[position+1] = c%255;```
-		```imageData.data[position+2] = c%255;```
-		```imageData.data[position+3] = 255;```
+```JavaScript
+position=(x+y*imageData.width)*4;
+imageData.data[position] = c%255;
+imageData.data[position+1] = c%255;
+imageData.data[position+2] = c%255
+imageData.data[position+3] = 255;```
+ - 
  
