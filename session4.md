@@ -54,10 +54,11 @@ imageData.data[position+3] = 255;
  ## Rotating an Image the Hard Way
   - In most Creative Coding frameworks you can just call 'rotate' to rotate an image.
   - But it's worthwhile taking a look at how this actually works
-  - The below example shows how we can use the circle formula from last week to rotate each pixel to a new location on the screen
+  - The below example shows how we can use something similar to the circle formula from last week to rotate each pixel to a new location on the screen.
   - https://mimicproject.com/code/86c8ecc8-4fb7-a25b-448d-a05e3fb4b6ed
-  - There are two important parts to this code. First we need to calculate which pixel we want to move
+  - There are two important parts to this code. First we need to calculate which pixel we want to move, and use a 2D rotation to move it.
 ```JavaScript 
+// This is a 2D matrix rotation!!! It's very similar to the code we used to rotate points around a circle.
 var x = Math.floor((Math.cos(theta) * j) - (Math.sin(theta) * i));
 var y = Math.floor((Math.sin(theta) * j) + (Math.cos(theta) * i));
 ```
@@ -96,4 +97,18 @@ imageData2.data[((imageWidth * i) + j) * 4] = data[((imageWidth * y) + x) * 4];
  - https://mimicproject.com/code/95b09168-00c1-b781-1cf1-9ba3761c276d
  - Write 1000 words on this example, explaining it in as much detail as you can
  - The comments should help a great deal, but you should make sure to explain it in your own words!
- 
+
+## Additional Materials: Rotation Code with Zooming, Offsets and Anchors
+ - Quite a few of you asked how to change the origin.
+ - To do this, you need to make adjustments to the Matrix rotation.
+ - We are adding parameters to translate the origin, translate the image, and scale (zoom) the image.
+ - Below is the code with the important changes:
+ ```JavaScript 
+
+// Rotation, translate (offset), origin translate (anchor) and scale (zoom)
+
+var x = Math.floor((Math.cos(theta)/zoomX) * (j-(offsetX+anchorX)) - (Math.sin(theta)/zoomY) * (i-(offsetY+anchorY)))+anchorX;
+var y = Math.floor((Math.sin(theta)/zoomX) * (j-(offsetX+anchorX)) + (Math.cos(theta)/zoomY) * (i-(offsetY+anchorY)))+anchorY;
+```
+ - Here's a link to a document with the above included:
+ - https://mimicproject.com/code/e9d8b9db-7e79-8aaa-9ec2-e672cd76eaa9 
