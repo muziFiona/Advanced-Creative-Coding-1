@@ -1,4 +1,4 @@
-# Session 5: Pixel Manipulation and Image Processing
+# Session 5: 3D graphics from scratch
 
 ## Recap
  - Last session we looked at more advanced 2D graphics concepts
