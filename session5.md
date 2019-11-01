@@ -3,7 +3,7 @@
 ## Recap
  - Last session we looked at more advanced 2D graphics concepts
  - We used expressions to create complex pixel manipulations
- - We also learned about how to basic image processing
+ - We also learned about how to do basic image processing
  - We looked at concepts such as convolution for edge detection, bluring, and other effects
  - We also thought about complex space a little, and looked at the mandelbrot set a bit
 
