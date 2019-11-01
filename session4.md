@@ -2,7 +2,7 @@
 
 ## Recap
  - Last session we looked at basic 2D graphics concepts
- - We learned about cartesian and polar conversions
+ - We learned about cartesian and polar coordinate systems
  - We also looked at how to convert between polar and cartesian coordinates (super important)
  - We learned how to draw circles from scratch using trigonometry
  - We learned about how the radius of a circle can describe the magnitude of something and also the distance between some things
@@ -54,22 +54,24 @@ imageData.data[position+3] = 255;
  ## Rotating an Image the Hard Way
   - In most Creative Coding frameworks you can just call 'rotate' to rotate an image.
   - But it's worthwhile taking a look at how this actually works
-  - The below example shows how we can use the circle formula from last week to rotate each pixel to a new location on the screen
+  - The below example shows how we can use something similar to the circle formula from last week to rotate each pixel to a new location on the screen.
   - https://mimicproject.com/code/86c8ecc8-4fb7-a25b-448d-a05e3fb4b6ed
-  - There are two important parts to this code. First we need to calculate which pixel we want the current pixel to move to
+  - There are two important parts to this code. First we need to calculate which pixel we want to move, and use a 2D rotation to move it.
 ```JavaScript 
+// This is a 2D matrix rotation!!! It's very similar to the code we used to rotate points around a circle.
 var x = Math.floor((Math.cos(theta) * j) - (Math.sin(theta) * i));
 var y = Math.floor((Math.sin(theta) * j) + (Math.cos(theta) * i));
 ```
- - theta is the angle, j is the current pixel's original Y position, i is the current pixel's original X position.
+ - j is the current pixel's original Y position, i is the current pixel's original X position.
  - j and i here are acting like the radius of the circle
- - We use Math.floor to round down, as this is an actual pixel x.y coordinate. If we don't do this, things get messy
+ - theta is the angle, or how far round the circle we want to rotate 
+ - We use Math.floor to round down, as this is an actual pixel xy coordinate. If we don't do this, things could get messy
  - The two new vars, x and y, are going to be where we are copying from - we want these colour values to be written to the current pixel
  - The next bit of code does that part:
 ```JavaScript  
 imageData2.data[((imageWidth * i) + j) * 4] = data[((imageWidth * y) + x) * 4];
 ```
- - Note that we could do it the other way round. We get a very similar effect
+ - Note that we could do it the other way round. We get a very similar effect but with some different artefacts
  
  ## Image Convolution
   - We can produce a wide range of image processing effects with a process called 'convolution'
@@ -87,8 +89,26 @@ imageData2.data[((imageWidth * i) + j) * 4] = data[((imageWidth * y) + x) * 4];
   - (remember to press the play button if the images don't appear)
   
 ## HOMEWORK
- - Take a look at this example:
+ - You have a choice between two different exercises. I don't care which one you do.
+ - 1) Try to understand how the edge detection code works, and use this knowledge to create a blur effect
+ - It's a simplified convolution kernel but can be used to create basic blurs.
+ - OR
+ - 2) Take a look at this example:
  - https://mimicproject.com/code/95b09168-00c1-b781-1cf1-9ba3761c276d
  - Write 1000 words on this example, explaining it in as much detail as you can
  - The comments should help a great deal, but you should make sure to explain it in your own words!
- 
+
+## Additional Materials: Rotation Code with Zooming, Offsets and Anchors
+ - Quite a few of you asked how to change the origin.
+ - To do this, you need to make adjustments to the Matrix rotation.
+ - We are adding parameters to translate the origin, translate the image, and scale (zoom) the image.
+ - Below is the code with the important changes:
+ ```JavaScript 
+
+// Rotation, translate (offset), origin translate (anchor) and scale (zoom)
+
+var x = Math.floor((Math.cos(theta)/zoomX) * (j-(offsetX+anchorX)) - (Math.sin(theta)/zoomY) * (i-(offsetY+anchorY)))+anchorX;
+var y = Math.floor((Math.sin(theta)/zoomX) * (j-(offsetX+anchorX)) + (Math.cos(theta)/zoomY) * (i-(offsetY+anchorY)))+anchorY;
+```
+ - Here's a link to a document with the above included:
+ - https://mimicproject.com/code/e9d8b9db-7e79-8aaa-9ec2-e672cd76eaa9 
