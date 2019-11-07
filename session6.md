@@ -1,4 +1,4 @@
-# 3D GRAPHICS PART 2
+# Session 6: 3D graphics part 2
 
 * Making worlds
 
@@ -19,7 +19,6 @@
 * Lighting
 * Triangles
 * Normals
-
 
 ---
 
@@ -59,6 +58,7 @@
 * Basic Geometry, Materials, Meshes, Textures and Lighting.
 - Exercise - explore the introductory example and try to create a scene with more than one object. Animate the objects, and try to load different textures.
 
+---
 
 # Triangles
 
