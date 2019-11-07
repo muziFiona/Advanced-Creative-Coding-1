@@ -1,6 +1,6 @@
-# PMC
+# 3D GRAPHICS PART 2
 
-* 3D graphics - making worlds
+* Making worlds
 
 ---
 
