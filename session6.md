@@ -66,6 +66,55 @@
 
 ---
 
+# Triangles
+
+![triangles image](https://ual-cci.github.io/mick/images/2.jpg)
+
+---
+
+# Triangles
+
+![triangles image](https://ual-cci.github.io/mick/images/3.jpg)
+
+---
+
+# Triangles
+
+![triangles image](https://ual-cci.github.io/mick/images/4.jpg)
+
+---
+
+# Triangles
+
+![triangles image](https://ual-cci.github.io/mick/images/5.jpg)
+
+---
+
+# Triangles
+
+![triangles image](https://ual-cci.github.io/mick/images/6.jpg)
+
+---
+
+# Triangles
+
+![triangles image](https://ual-cci.github.io/mick/images/7.jpg)
+
+---
+
+# Triangles
+
+![triangles image](https://ual-cci.github.io/mick/images/8.jpg)
+
+---
+
+# Three.js dynamic geometry examples with triangle rendering
+* You need to use this approach if you want to do dynamic geometry in three.js
+- https://mimicproject.com/code/cbba9b28-522f-089b-25c0-a23cde718b6b
+* This example is a little advanced, so don't worry if you don't get it straight away.
+
+---
+
 # Quads / Polygons
 
 * You don’t need to use the triangle rendering method
@@ -73,14 +122,14 @@
 * Quad Strip is very handy (more on this in a moment)
 * Polygons are also great.
 * Now you know how to organise points in a mesh to draw faces, you have a lot of skill.
-* Most graphics programmers find this very hard. Pat yourselves on the back!
+* Most graphics programmers find this very hard :-)
 
 ---
 
 # Lighting
 
-* WebGL can have lots of lights.
-* OpenGL is limited to only 8
+* Three.js is based on WebGL, and can have lots of lights.
+* OpenGL is limited to only 8, but you can create as many as you like using shaders :-)
 * You can create and position various lights to illuminate a scene
 * You can also adjust the ‘material’ properties of a 3D shape, to change how the object reacts to light
 
@@ -140,6 +189,24 @@
 * The Vertex normal is the unit vector of the vertex position - the origin.
 * This is because the unit vector of the vertex contains the direction that the vertex is going.
 * The direction in these cases is perpendicular to the surface!!!
+
+---
+
+# Normals
+
+![triangles image](https://ual-cci.github.io/mick/images/9.jpg)
+
+---
+
+# Normals
+
+![triangles image](https://ual-cci.github.io/mick/images/10.jpg)
+
+---
+
+# Normals
+
+![triangles image](https://ual-cci.github.io/mick/images/11.jpg)
 
 ---
 
