@@ -22,6 +22,15 @@
 
 ---
 
+# Programming techniques we will look at
+
+* You should now be familiar with variables, conditionals, and loops.
+* Today we will look more at scope
+* We will look at functions in more detail
+* We will also be using objects with specific methods defined by the Three.js API.
+
+---
+
 # Models
 
 * In many cases, specifically where common forms of representation are being used (human characters for example), models are prepared outside of the rendering engine, then imported.
