@@ -62,7 +62,7 @@
 
 # Triangles
 
-!(image)(PMCweek5.001.jpeg)
+!(image)(../images/1.jpg)
 
 ---
 
@@ -121,16 +121,16 @@
 
 * A Normal is a vector perpendicular to the surface either from the surface centre, the vertex, or the object centre.
 * Normals tell the renderer which direction the object or surface is facing.
-* If the vertex Normal is pointing away from the viewer, openGL doesn’t draw the vertex.
+* If the vertex Normal is pointing away from the viewer, you might not see the surface...
 
 ---
 
 # Vertex Normals
 
-* We can invert normals very easily in OpenGL
-* We do this be specifying which side is the front
-* We can do this when we set the material properties (GL_FRONT)
-* There are better ways..
+* We can invert normals very easily in Three.js
+* We do this be specifying which side is the surface
+* We can do this when we set the material properties
+* Material.side = THREE.BackSide, or Material.side = THREE.DoubleSide
 
 ---
 
@@ -140,28 +140,6 @@
 * The Vertex normal is the unit vector of the vertex position - the origin.
 * This is because the unit vector of the vertex contains the direction that the vertex is going.
 * The direction in these cases is perpendicular to the surface!!!
-
----
-
-# Vertex Normals
-
-* You need to specify the normal for each vertex.  
-* Easy way to compute the unit vector to get the vertex normal:
-*         ofVec3f vec;
-*         
-*         vec.set(points[i].x, points[i].y, points[i].z);
-*         vec = vec.normalize();
-*         glNormal3f(vec.x, vec.y, vec.z);
-*         glVertex3f(points[i].x, points[i].y, points[i].z);
-
----
-
-# Vertex Normals
-
----
-
-# Vertex Normals
-
 
 ---
 
@@ -194,15 +172,14 @@
 
 # Textures
 
-* You can also load textures very easily and apply them to openGL meshes
-* Let’s look at our final example
-
+* You can also load textures very easily and apply them to meshes
+* You can see this in the earlier example.
 ---
 
 # Environments
 
-* When making 3D OpenGL scenes, we use lights to generate more realistic looking environments
-* In the example we’ve seen, there’s a surface texture
+* When making 3D scenes, we use lights to generate more realistic looking environments
+* In the example we’ve seen, there's an object lit with a texture.
 * But we don’t have a sky.
 
 ---
