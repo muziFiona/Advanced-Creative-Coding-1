@@ -62,7 +62,7 @@
 
 # Triangles
 
-!(triangles image)(https://ual-cci.github.io/mick/images/1.jpg)
+![triangles image](https://ual-cci.github.io/mick/images/1.jpg)
 
 ---
 
