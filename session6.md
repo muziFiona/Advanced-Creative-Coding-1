@@ -75,31 +75,31 @@
 
 * There are a group of objects in the scene that are standard and that you always need.
 ```javascript
-  var camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 1000);
+var camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 1000);
 // We need to create a scene and add things to it.   
-	var scene = new THREE.Scene();
+var scene = new THREE.Scene();
 // Now we are goint to create some built in geometry 
 // It's a box.    
-	var geometry = new THREE.BoxGeometry(200, 200, 200);
+var geometry = new THREE.BoxGeometry(200, 200, 200);
 // We are going to want to texture the box.
 // To do this we need a texture loader object to load the texture 
-	var myTextureLoader = new THREE.TextureLoader();
+var myTextureLoader = new THREE.TextureLoader();
 // Then we can load the texture into a variable
-	var myTexture = myTextureLoader.load('sgpic10.jpg');
+var myTexture = myTextureLoader.load('sgpic10.jpg');
 // Now we need to create a material
 // This defines how the surface of the object reflects light
 // We're using Phong. There are lots of other types.      
-	var material = new THREE.MeshPhongMaterial({map: myTexture});
+var material = new THREE.MeshPhongMaterial({map: myTexture});
 // We can now create a mesh using the geomentry and the material
-    var mesh = new THREE.Mesh(geometry, material);
+var mesh = new THREE.Mesh(geometry, material);
 // If we want to see stuff, we will need a light.
 // The argument is the colour of the light in hexadecimal.      
-	var light = new THREE.DirectionalLight(0xffffff);
+var light = new THREE.DirectionalLight("rgb(255,255,255)");
 // Now we can create our renderer. Thiis renders the scene. 
       
 // There are lots of different kinds of renderers. 
 // They also have a lot of parameters!!
-	var renderer = new THREE.WebGLRenderer({ preserveDrawingBuffer: true });
+var renderer = new THREE.WebGLRenderer({ preserveDrawingBuffer: true });
 // We also create some camera controls. 
 // These take the mouse info automatically and use it to control the scene.      
 	var controls = new THREE.OrbitControls(camera, renderer.domElement); 
