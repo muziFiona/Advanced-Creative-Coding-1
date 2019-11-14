@@ -81,7 +81,6 @@ https://mimicproject.com/code/3c30839f-92e0-8443-3cd9-1a91e8ef2b5f
 ## Presentation (continued)
 Next, we need to look at the following presentation:
 
-
 ---
 
 ## Exercise 2
@@ -114,18 +113,10 @@ Try to create expressions with combinations of sin, cos, tan, atan, pow etc. Loo
 
 * Experiment adding and subtracting the lines together. Remember that when you combine functions together, every pixel can be affected.
 
-3) Now fork this document.
+* Now fork this document.
 
 https://mimicproject.com/code/8028d479-ec2f-e8ca-0bc8-891a4669d66f
 
 This document has a vertex shader. Experiment with it to try to work out what it's doing. Can you create simple algorithmic geometry in this shader?
-
-
----
-
-
----
-
-
 
 ---
