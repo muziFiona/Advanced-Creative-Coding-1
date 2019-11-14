@@ -26,6 +26,8 @@
 
 Grab the PDF presentation here:
 
+- https://github.com/micknoise/Advanced-Creative-Coding-1/blob/master/Session-7-part1.pdf
+
 ---
 
 ## Exercise 1
@@ -79,7 +81,10 @@ https://mimicproject.com/code/3c30839f-92e0-8443-3cd9-1a91e8ef2b5f
 ---
 
 ## Presentation (continued)
+
 Next, we need to look at the following presentation:
+
+- https://github.com/micknoise/Advanced-Creative-Coding-1/blob/master/session7-part2.pdf
 
 ---
 
