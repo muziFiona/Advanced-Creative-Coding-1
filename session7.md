@@ -46,10 +46,6 @@ At the moment you only need to focus on the code within the section marked "PUT 
 
 * Try to memorise the GLSL code (JUST the GLSL section after the part marked "PUT YOUR GLSL CODE HERE" and before the part marked "END OF GLSL CODE")
 
-Working on your own, delete the GLSL code (JUST the GLSL section after the part marked "PUT YOUR GLSL CODE HERE" and before the part marked "END OF GLSL CODE")
-
-Try to rewrite it from memory so it works the same way. Once you can rewrite it from memory, move on.
-
 * Next, fork this document:
 
 https://mimicproject.com/code/3dd25d78-374d-2826-a569-9400ae357ac2
@@ -62,9 +58,7 @@ https://mimicproject.com/code/3dd25d78-374d-2826-a569-9400ae357ac2
 
 * Can you change the colour of the circle based on the y dimension? Make a note of the effect this has.
 
-Now memorise what you've done, and try to rewrite it from scratch.
-
-* Look at this method instead: https://live.codecircle.com/d/95mNjRe3b7HLmsGw4
+* Look at this method instead: https://mimicproject.com/code/ff025d22-ab74-dccd-2e0e-55b8bc6cdb60
 
 What is the main difference? Does it matter?
 
