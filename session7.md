@@ -48,7 +48,7 @@ At the moment you only need to focus on the code within the section marked "PUT 
 
 Working on your own, delete the GLSL code (JUST the GLSL section after the part marked "PUT YOUR GLSL CODE HERE" and before the part marked "END OF GLSL CODE")
 
-Try to rewrite it from memory so it works the same way. Once you can rewrite it from memory, move on to question 2.
+Try to rewrite it from memory so it works the same way. Once you can rewrite it from memory, move on.
 
 * Next, fork this document:
 
