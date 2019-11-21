@@ -63,7 +63,7 @@ Try to generate a random value and add it to the normal
 
 Now look at this document
 
-https://live.codecircle.com/d/urdhY6ACnso2kEBiA
+https://mimicproject.com/code/8d036974-d345-ada9-b9bf-be4fc3b2eb21
 
 What's going on? Can you rotate the sphere whilst retaining the lighting characteristics correctly?
 
@@ -71,7 +71,7 @@ What's going on? Can you rotate the sphere whilst retaining the lighting charact
 
 ## Exercise 4
 
-https://mimicproject.com/code/8d036974-d345-ada9-b9bf-be4fc3b2eb21
+https://mimicproject.com/code/4f968419-a78e-b4d4-bcc5-2722918b25ed
 
 Notice that we are now using the perspective camera.
 
