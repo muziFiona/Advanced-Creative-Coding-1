@@ -3,13 +3,11 @@
 ## Introduction to GLSL using Fragment Shaders
 
 ---
+## GLSL shaders continued
 
-## Deeper, Deeper, Better, Better...
+Today we will be looking at noise generators for a little bit.
 
-- https://www.shadertoy.com
-- http://www.shaderific.com/glsl-functions/
-- https://thebookofshaders.com
-- http://glslsandbox.com (sometimes a bit sketchy so be wary)
+Then we will be looking at Vertex shaders in detail.
 
 ---
 
