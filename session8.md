@@ -9,6 +9,8 @@ Today we will be looking at noise generators for a little bit.
 
 Then we will be looking at Vertex shaders in detail.
 
+The main technical learning we are reinforcing are GLSL shader language operators (which are standard operators we have looked at before), and functions, because we need to use functions a lot in GLSL to simplify things.
+
 ---
 
 ## Presentation:
