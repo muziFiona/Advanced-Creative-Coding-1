@@ -10,6 +10,10 @@ Grab the PDF presentation here:
 
 - https://github.com/micknoise/Advanced-Creative-Coding-1/blob/master/Session-9.pdf
 
+Start here:
+
+* https://mimicproject.com/code/8de3cbbe-b7c6-d79f-65fa-42fd1aa43a26
+
 
 ## Exercise 1
 
