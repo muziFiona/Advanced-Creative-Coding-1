@@ -121,5 +121,10 @@ Can you take the simple RapdLib example we created at the start and use it to ta
 
 How about using the system for controlling a 3D mesh?
 
-
 ---
+
+## Further reading
+
+If you're interested in coding your own Neural Networks, this is a great tutorial :
+
+https://karpathy.github.io/neuralnets/
