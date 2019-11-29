@@ -33,6 +33,12 @@ In particular:
 * Try entering values that are lower than any of the values in the training set
 * What do you notice about the Neural Network's behaviour?
 
+You can grab the js code for the classification explorer here:
+
+https://mimic-238710.appspot.com/asset/7addbbfe-b039-713d-f9b9-75a6cd00e923/classification-explorer.js
+
+
+
 ---
 
 ## Exercise 2
@@ -86,6 +92,10 @@ https://mimicproject.com/code/26ab5507-0d25-07eb-cb03-aaa93883765d
 * Create a training set that produces a diagonal line from one corner of the canvas to the other.
 
 * How easy is this to do? What issues do you face?
+
+You can grab the js code for the regression explorer here.
+
+https://mimic-238710.appspot.com/asset/26ab5507-0d25-07eb-cb03-aaa93883765d/regression-explorer.js
 
 ---
 
